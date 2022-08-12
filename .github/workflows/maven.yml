@@ -23,5 +23,5 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -f LESM2/LESM2/demo/pom.xml package 
+      run: mvn -f /demo/pom.xml package 
   
